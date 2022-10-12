@@ -1,0 +1,49 @@
+:root {
+    --red: rgba(249,65,68,255);
+    --tangerine: rgba(243,114,44,255);
+    --orange: rgba(248,150,30,255);
+    --salmon: rgba(249,132,74,255);
+    --yellow: rgba(249,199,79,255);
+    --grass: rgba(144,190,109,255);
+    --green: rgba(67,170,139,255);
+}
+body {
+    color: white;
+}
+
+div {
+    border: 1px solid white;
+    padding: 1rem;
+}
+
+#greenBox {
+    background-color: var(--green);
+}
+#grassBox {
+    background-color: var(--grass);
+}
+#yellowBox {
+    background-color: var(--yellow);
+}
+#salmonBox {
+    background-color: var(--salmon);
+}
+#orangeBox {
+    background-color: var(--orange);
+}
+#tangerineBox {
+    background-color: var(--tangerine);
+}
+#redBox {
+    background-color: var(--red);
+}
+
+#blackBox {
+    background-color: black;
+    padding: 5px;
+}
+
+h1 { 
+    cursor: pointer;
+}
+
